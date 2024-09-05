@@ -1,8 +1,9 @@
-name: 'Template action'
-description: 'Replace me'
+name: 'Build and test'
+description: 'Common build and test action for my android projects'
 runs:
   using: "composite"
   steps:
-    - name: Hello
-      run: echo "Hello World!"
-      shell: bash
+    - name: Build
+      run: ./gradlew build
+    - name: Run tests
+      run: ./gradlew test

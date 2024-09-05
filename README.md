@@ -1,2 +1,2 @@
-# template-action
-Template for my GitHub actions
+# action-build-and-test-android
+Common build and test action for my android projects.
