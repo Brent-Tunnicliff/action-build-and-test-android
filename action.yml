@@ -4,6 +4,8 @@ runs:
   using: "composite"
   steps:
     - name: Build
+      shell: bash
       run: ./gradlew build
     - name: Run tests
+      shell: bash
       run: ./gradlew test
