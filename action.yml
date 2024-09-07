@@ -1,3 +1,5 @@
+# Copyright © 2024 Brent Tunnicliff <brent@tunnicliff.dev>
+
 name: 'Build and test'
 description: 'Common build and test action for my android projects'
 runs:
